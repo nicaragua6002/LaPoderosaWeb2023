@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Contacto";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <address>
+        Managua<br />
+       Nicaragua<br />
+        <abbr title="Phone">P:</abbr>
+        +505 888888
+    </address>
+
+    <address>
+        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    </address>
+    <h2>Fecha del servidor:@ViewBag.Fecha</h2>
+    <script>
+        console.log(Date.toString())
+    </script>
+</main>

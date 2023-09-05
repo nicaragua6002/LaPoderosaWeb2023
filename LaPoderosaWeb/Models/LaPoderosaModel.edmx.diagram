@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c13ef7d838804641b817d37e7a086038" Name="Diagram1" ZoomLevel="100" >
+        <EntityTypeShape EntityType="LaPoderosaModel.Producto" Width="1.5" PointX="4.375" PointY="2.375" FillColor="255, 192, 192" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Proveedor" Width="1.5" PointX="2.375" PointY="1.75" FillColor="255, 192, 192" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Categoria" Width="1.5" PointX="2.25" PointY="4.125" FillColor="255, 192, 192" />
+        <AssociationConnector Association="LaPoderosaModel.ProveedorProducto" />
+        <AssociationConnector Association="LaPoderosaModel.CategoriaProducto" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Valoracion" Width="1.5" PointX="6.75" PointY="4.375" FillColor="192, 255, 255" />
+        <AssociationConnector Association="LaPoderosaModel.ProductoValoracion" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Receta" Width="1.5" PointX="9" PointY="4.875" FillColor="192, 255, 255" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Ingrediente" Width="1.5" PointX="9" PointY="2" FillColor="192, 255, 255" />
+        <EntityTypeShape EntityType="LaPoderosaModel.Comentario" Width="1.5" PointX="11.375" PointY="4.75" FillColor="192, 255, 255" />
+        <AssociationConnector Association="LaPoderosaModel.RecetaComentario" />
+        <AssociationConnector Association="LaPoderosaModel.RecetaIngrediente" />
+        <AssociationConnector Association="LaPoderosaModel.ProductoIngrediente" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
